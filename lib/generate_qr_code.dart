@@ -38,7 +38,11 @@ class _GenerateQRCodeState extends State<GenerateQRCode> {
                 ),
               ),
               SizedBox(height: 10),
-              ElevatedButton(onPressed: (){},child: Text('Genrate QR Code'),),
+              ElevatedButton(onPressed: (){
+                setState(() {
+                });
+              
+              },child: Text('Genrate QR Code'),),
             ],
           ),
         ),
