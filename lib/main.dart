@@ -42,8 +42,6 @@ class _HomePageState extends State<HomePage> {
                 setState(() {
                   Navigator.of(context).push(MaterialPageRoute(builder: (context)=>ScanQRCode()));
                 });
-
-
               }, child: Text('Scan QR code')),
               SizedBox(height:40 ),
               ElevatedButton(onPressed: (){
